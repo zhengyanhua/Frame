@@ -1,0 +1,47 @@
+//
+//  PublicClass.swift
+//  SwiftFrame
+//
+//  Created by iOSDeveloper on 2016/10/26.
+//  Copyright © 2016年 iOSDeveloper. All rights reserved.
+//
+
+import Foundation
+import UIKit
+
+// URL 测试
+let net_Url = ""
+
+
+// 文字颜色
+let text_Color = UIColor.HEXColor(color: 0xffffff)
+// 背景颜色
+let background_Color = UIColor.white
+// 字体大小
+let text_Font = UIFont.systemFont(ofSize: 15)
+// 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//  document路径
+let document_Path = NSSearchPathForDirectoriesInDomains(.documentDirectory,.userDomainMask, true).last
+
+//  图片路径
+let images_Path = document_Path! + "/RuiSaiKe/Images"
+
+
+
